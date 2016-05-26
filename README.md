@@ -42,6 +42,7 @@ This step is optional. You can update the switch statement in `get_current_track
 
 ### 5. Upload the contents of `/dist` to your server
 
+Set permissions on `current_track_id.txt` and `playlist.json` to 777.
 
 
 ## Running Jukebox
