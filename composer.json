@@ -1,0 +1,8 @@
+{
+  "config": {
+      "vendor-dir": "dist/vendor"
+  },
+  "require": {
+    "jwilsson/spotify-web-api-php": "^1.0.0"
+  }
+}

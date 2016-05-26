@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>NOW PLAYING</title>
+	<link rel="stylesheet" type="text/css" href="assets/styles.css">
+</head>
+<body>
+
+<table height="100%" width="100%" cellspacing="0" cellpadding="0"><tr><td valign="middle">
+<div class="main">
+
+	<table>
+		<tr>
+			<td class="now-playing"><div>Now Playing</div></td>
+			<td rowspan="2" style="padding: 1em;">
+				<img id="album_art">
+			</td>
+		</tr>
+
+		<tr>
+			<td class="track_info" align="center" width="75%">
+				<h1 id="track"></h1>
+				<p id="artist"></p>
+				<p id="album"></p>
+				<p id="added_by"></p>
+			</td>
+
+		</tr>
+	</table>
+</div>
+
+</td></tr></table>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="assets/scripts.js"></script>
+</body>
+</html>
