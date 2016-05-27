@@ -21,11 +21,10 @@ $playlist = $playlist->{'items'};
 // Get current track info from playlist
 foreach($playlist as $player)
 {
-  $added_by = str_replace('"','\"',$player->{'added_by'}->{'id'});
-
   if(stripos($current_track, $player->{'track'}->{'id'}))
   {
     $track = str_replace('"','\"',$player->{'track'}->{'name'});
+    $added_by = str_replace('"','\"',$player->{'added_by'}->{'id'});
     $artist =  str_replace('"','\"',$player->{'track'}->{'artists'}[0]->{'name'});
     $album = str_replace('"','\"',$player->{'track'}->{'album'}->{'name'});
     $art =  str_replace('"','\"',$player->{'track'}->{'album'}->{'images'}[0]->{'url'});
